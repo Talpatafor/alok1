@@ -174,6 +174,10 @@ html{
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 30px;
 	}
+
+#vido{ width: 100%; height: auto;}
+
+
 	.footer-container{
 		padding: 25px;
 	}
