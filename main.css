@@ -31,7 +31,7 @@ body{
 }
 .navbar ul li a{
 	text-decoration: none; 
-	font-size: 3em;
+	font-size: 3rem;
 	color: white;
 }
 .navbar ul li a:hover{
@@ -152,6 +152,6 @@ body{
 }
 .footer-container .alo{
 	text-align: center; 
-	font-size: 2rem;
+	font-size: 30px;
 	color: white;
 }
