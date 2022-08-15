@@ -90,10 +90,6 @@ body{
     text-align: center;
 }
 
-
-#vido{
-     width: 100%;
-height: 500px;}
 .container-grid{
     display: flex;
     flex-direction: column;
