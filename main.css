@@ -148,10 +148,10 @@ body{
 
 .footer-container{
 	background-color: #341d64;
-	padding: 5px;
+	padding: 50px;
 }
 .footer-container .alo{
 	text-align: center; 
-	font-size: 2rem; 
+	font-size: 2rem;
 	color: white;
 }
