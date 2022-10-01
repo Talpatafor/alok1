@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: darkmagenta;
+    margin: 15px 0;
+    width: 100%;
+    padding: 10px;
+    border: 5px solid red;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin: auto;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.navbar ul li:hover{
+    background-color: darkorange;
+}
+
+.container1 .item{
+    box-shadow: 0 7px 7px gray;
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container1 .item h4{
+    text-align: center;
+}
+.container1 .item h4 > span{
+    animation: text 4s ease-in-out infinite;
+}
+@keyframes text{
+    0%, 100%{
+        color: white;
+        text-shadow:  0 0 5px black, 0 0 10px black, 0 0 15px black;    }
+        10%, 90%{
+            color: red;
+            text-shadow: none;
+        }
+}
+.container1 .services #ami{
+    text-align: center;
+}
+
+
+.container-grid .grid-item{
+    box-shadow: 0 7px 7px gray;
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container-grid .grid-item h5{
+    text-align: center;
+    font-size: x-large;
+}
+.container-grid .grid-item h5 > span{
+    animation: text0 4s ease-in-out infinite;
+}
+@keyframes text0{
+    0%, 100%{
+        color: aqua;
+        text-shadow:  0 0 5px black, 0 0 10px black, 0 0 15px black;
+    }
+    10%, 90%{
+        color: green;
+        text-shadow: none;
+    }
+}
+
+
+.container2 .fitem{
+    box-shadow: 0 7px 7px gray;
+    margin: 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container2 .fitem h5{
+    text-align: center;
+    font-size: x-large;
+}
+.container2 .fitem h5 > span{
+    animation: text1 4s ease-in infinite;
+}
+@keyframes text1{
+    0%, 100%{
+        color: gold;
+        text-shadow: 0 0 5px black, 0 0 10px black, 0 0 15px black;
+    }
+    10%, 90%{
+        color: red;
+        text-shadow: none;
+    }
+}
+
+
+#footer{
+    margin-top: 10px;
+    background-color: blueviolet;
+}
+#footer p{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#footer p a{
+    text-decoration: none;
+    color: rgb(235, 232, 55);
+}
+@media (min-width: 720px){
+    .container1{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-grid{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .container2{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
