@@ -3,6 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*writing anime css portion*/
+.main{
+            display: flex; align-items: center; justify-content: center;
+           /* background-color: rgb(36, 31, 31);*/
+            width: 100%; height: 500px;
+        }
+        .main h1{
+            color: rgb(41, 126, 39); 
+            font-family: monospace;
+        }
+        .main .writing{
+            position: relative;
+        }
+        .main .writing::after{
+            content: '|';
+            position: absolute;
+            right: 0;
+            color: rgb(17, 16, 16);
+            background-color: white;
+            width: 100%;
+            animation: anime 10s steps(20) alternate infinite,
+            anime0 1s infinite;
+        }
+        @keyframes anime{
+            to{
+                width: 0%;
+            }
+        }
+        @keyframes anime0{
+            50%{
+                color: transparent;
+            }
+        }
+
+
 .navbar{
     background-color: darkmagenta;
     margin: 15px 0;
