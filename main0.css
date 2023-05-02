@@ -13,6 +13,7 @@
         .main h1{
             color: rgb(41, 126, 39); 
             /*font-family: monospace;*/
+             font-family: "Times New Roman", Times, serif;
         }
         .main .writing{
             position: relative;
