@@ -10,10 +10,10 @@
            /* background-color: rgb(36, 31, 31);*/
             width: 100%; 
         }
-        .main h1{
+        .main h3{
             color: rgb(41, 126, 39); 
-            /*font-family: monospace;*/
-             font-family: serif;
+            font-family: monospace, serif;
+             
         }
         .main .writing{
             position: relative;
