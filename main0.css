@@ -141,6 +141,8 @@
 #footer{
     margin-top: 10px;
     background-color: blueviolet;
+    
+    border-top: 5px blue;
 }
 #footer p{
     color: white;
