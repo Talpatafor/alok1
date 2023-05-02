@@ -12,7 +12,7 @@
         }
         .main h1{
             color: rgb(41, 126, 39); 
-            font-family: monospace;
+            /*font-family: monospace;*/
         }
         .main .writing{
             position: relative;
