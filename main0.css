@@ -25,8 +25,8 @@
             color: rgb(17, 16, 16);
             background-color: white;
             width: 100%;
-            animation: anime 4s steps(24) alternate infinite,
-            anime0 .5s infinite;
+            animation: anime 5s steps(24) alternate infinite,
+            anime0 .7s infinite;
         }
         @keyframes anime{
             to{
