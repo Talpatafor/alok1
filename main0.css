@@ -150,16 +150,16 @@ transform: translateX(400%);
 */
 
 
-.fastwriting{
+.fastwriting001{
             width: 100%; height: 20px; overflow: hidden; 
             
         }
-        .fastwriting  .marq{
+        .fastwriting001  .marq{
           box-shadow: lightgray 0px 10px 12px ;
           
         }
         
-        .fastwriting marquee p{
+        .fastwriting001 marquee p{
             font-size: x-large; line-height: 50px; text-align: center; color: red;
             
         }
