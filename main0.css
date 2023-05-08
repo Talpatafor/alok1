@@ -169,7 +169,7 @@ transform: translateX(400%);
     margin-top: 10px;
     background-color: blueviolet;
     
-    border-top: 15px dashed cadetblue;
+    border-top: 15px dotted yellow;
 }
 #footer p{
     color: white;
